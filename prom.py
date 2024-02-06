@@ -11,3 +11,4 @@ while x != y:
     x =  x + 1
 
 print("El promedio de los numeros ingresados es: ", prom)
+print("La suma de los numeros es: ", suma)
