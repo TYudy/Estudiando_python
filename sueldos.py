@@ -24,5 +24,5 @@ if C1 == 1:
 
 
 if C2 == 1:
-    print(C2," empleados cobran más de $3.000.000")
+    print(C2," empleados cobran más de $3.000.000 ")
 
