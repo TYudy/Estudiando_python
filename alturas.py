@@ -1,4 +1,7 @@
 
+
+
+print("Bienvenido")
 y = int(input("Cuantas alturas quiere promediar: "))
 x = 0
 suma = 0
