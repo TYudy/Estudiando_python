@@ -1,7 +1,4 @@
 
-
-
-
 def rango():
 
     a1 = int(input("Por favor ingrese el primer año: "))
