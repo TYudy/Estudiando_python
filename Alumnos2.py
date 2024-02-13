@@ -16,16 +16,18 @@ for c in range (canta):
     notas = []
     suma = 0
     contn=0
-    
-    while True:
-        nota = int(input("NOTA: "))
-        if nota >= 0:
-            contn  += 1
-            suma = suma + nota
-            prom = suma / contn
-            notas.append (nota)
-        else:
-            break
+    if nombre in alumnos:
+        "Ese nombre ya existe dentro del sistema"
+    else:
+        while True:
+            nota = int(input("NOTA: "))
+            if nota >= 0:
+                contn  += 1
+                suma = suma + nota
+                prom = suma / contn
+                notas.append (nota)
+            else:
+                break
     promedios [nombre] = prom
     alumnos [nombre] = notas
 
